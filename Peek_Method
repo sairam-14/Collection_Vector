@@ -1,0 +1,18 @@
+package com.vector;
+
+import java.util.Stack;
+
+public class Peek {
+
+	public static void main(String[] args) {
+     
+		Stack<Integer> s= new Stack<>();
+		s.push(50);
+		s.push(60);
+		s.push(70);
+		System.out.println(s);
+		System.out.println(s.peek());//check last Index
+		System.out.println(s);
+	}
+
+}
